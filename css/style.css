@@ -1,0 +1,222 @@
+html, 
+body,
+
+.view{
+    height: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+.carousel {
+    height: 50%;
+    padding-top: 68px;
+
+}
+.carousel.carousel-inner{
+    height: 100%;
+}
+.carousel.carousel-inner.carousel-item,
+.carousel.carousel-inner.active{
+    height: 100%;
+}
+@media (max-width: 776px) {
+    .carousel{
+        height: 100%;
+    }
+}
+.page-footer{
+    background-color: #929FBA;
+}
+.carousel-item{
+    height: 100%;
+}
+.page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+  
+@media (max-width: 576px) {
+    .page {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+}
+  
+.page-light {
+    background-color: #9ABBE1;
+}
+  
+.page-dark {
+    background-color: #212121;
+}
+  
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  @media (max-width: 992px) {
+    .product {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .product {
+      margin-bottom: 50px;
+    }
+  }
+  
+  .product-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 24%;
+            flex: 0 0 24%;
+    position: relative;
+  }
+  
+  @media (max-width: 992px) {
+    .product-item {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 49%;
+              flex: 0 0 49%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .product-item {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+              flex: 0 0 100%;
+    }
+  }
+  
+  .product-item:before, .product-item:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 992px) {
+    .product-item:before, .product-item:after {
+      background-size: 100% 25px;
+    }
+  }
+  
+  .product-item:before {
+    background-image: url("../img/item-top.svg");
+  }
+  
+  .product-item:after {
+    background-image: url("../img/item-bottom.svg");
+  }
+  
+  .product-title {
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    font-weight: 700;
+  
+  }
+  .title-h2 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+
+  }
+  
+  @media (max-width: 500px) {
+    .title-h2 {
+      font-size: 28px;
+    }
+  }
+.btn {
+  background-color: #fff;
+  color: #000000;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 28px;
+}
+
+.btn-xs {
+  padding: 5px 28px;
+}
+
+.btn-center {
+  display: block;
+  text-align: center;
+  max-width: 168px;
+  margin: 0 auto;
+}
+
+.btn-center span {
+  margin-right: 15px;
+}
+.btn-b {
+  background-color: #9ABBE1;
+  color: #ffffff;
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 28px;
+  margin-bottom: 30px;
+  display: block;
+}
+.xbox {
+  width: 100%;
+  height: 350px;
+  background: url('https://candlesbox.com/wp-content/uploads/Plantes-1-600x600.jpg') no-repeat center center/cover;
+  margin-bottom: 20px;
+}
+
+.xbox .content {
+  width: 40%;
+  padding: 50px 0 0 30px;
+}
+
+.xbox p, .carbon p {
+  margin: 10px 0 20px;
+}
+@media (max-width: 992px) {
+  .xbox.content {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .xbox.content {
+    padding: 27px 0 84px;
+    background-size: 153px 130px;
+    background-position: 100% bottom;
+  }
+}
+
+
